@@ -1,8 +1,10 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 const geocoderService = require('./geocoderService');
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 // Configuration

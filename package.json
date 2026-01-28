@@ -17,6 +17,7 @@
   "author": "Synq",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "^4.22.1",
     "local-reverse-geocoder": "^0.16.7",
     "mongoose": "^9.1.5"
